@@ -1,10 +1,106 @@
+.container {
+  border: solid 1px #CFCFCF;
+  color: #545454;
+  display: inline-block;
+  width: 359px;
+}
 
+.content {
+  overflow: scroll;
+  height: 526px;
+}
 
-/* --- YOUR CODE STARTS HERE --- */
+nav, footer {
+  background-color: #FAFAFA;
+  padding: 13px;
+}
 
+a, a:visited, a:hover, a:active {
+  color: #416386;
+  font-weight: 400;
+  text-decoration: none;
+}
 
+/***** Navbar *****/
+nav {
+  border-bottom: solid 2px #EDEDED;
+}
 
+.back-button {
+  float: left;
+}
 
+.reload-button {
+  float: right;
+}
 
+/***** Photo Header *****/
+.photo-info {
+  float: left;
+  font-size: .8em;
+  line-height: .5em;
+  margin: 7px 0 7px 4px;
+  text-align: left;
+}
 
-/* --- YOUR CODE ENDS HERE --- */
+.profile-photo {
+  background-color: #B2C066;
+  border-radius: 100%;
+  float: left;
+  height: 25px;
+  margin: 5px;
+  width: 25px;
+}
+
+.photo-header {
+  padding: 5px;
+}
+
+.menu-button {
+  float: right;
+  margin: 8px 8px 0 0;
+}
+
+/***** Photo Footer *****/
+.photo-footer {
+  padding: 10px;
+}
+
+.like-button, .comment-button, .share-button {
+  float: left;
+}
+
+.save-button {
+  float: right;
+}
+
+.like-button, .comment-button, .share-button, .save-button {
+  padding: 0 5px;
+}
+
+.like-button {
+  padding-left: 0;
+}
+
+.likes {
+  margin-top: 30px;
+}
+
+p, .likes, .location {
+  font-size: .9em;
+  font-weight: 300;
+  text-align: left;
+}
+
+/***** Footer *****/
+footer {
+  border-top: solid 2px #EDEDED;
+}
+
+.footer-button {
+  margin: 0 20px;
+}
+
+.selected {
+  color: #272726;
+}
